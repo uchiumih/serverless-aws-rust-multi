@@ -24,7 +24,9 @@ mod tests {
             "answer": 42
         });
         assert_eq!(
-            hello(event.clone(), Context::default()).await.expect("expected Ok(_) value"),
+            hello(event.clone(), Context::default())
+                .await
+                .expect("expected Ok(_) value"),
             event
         )
     }

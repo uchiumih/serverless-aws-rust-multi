@@ -1,4 +1,4 @@
-use lambda_http::{handler, lambda, IntoResponse, Request, Context};
+use lambda_http::{handler, lambda, Context, IntoResponse, Request};
 use serde_json::json;
 
 type Error = Box<dyn std::error::Error + Sync + Send + 'static>;
