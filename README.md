@@ -17,7 +17,7 @@ Then then run the following in your terminal
 
 ```bash
 $ npx serverless install \
-  --url https://github.com/softprops/serverless-aws-rust-multi \
+  --url https://github.com/uchiumih/serverless-aws-rust-multi \
   --name my-new-multi-func-app
 ```
 
@@ -32,7 +32,7 @@ that is _born_ in production.
 
 ```bash
 $ npx serverless install \
-  --url https://github.com/softprops/serverless-aws-rust-multi \
+  --url https://github.com/uchiumih/serverless-aws-rust-multi \
   --name my-new-multi-func-app \
   && cd my-new-multi-func-app \
   && npm ci \
@@ -102,4 +102,4 @@ $ npx serverless remove
 
 ## 👯 Contributing
 
-This template's intent is to set a minimal baseline for getting engineers up an running with a set of repeatable best practices. See something you'd like in this template that would help others? Feel free to [open a new GitHub issue](https://github.com/softprops/serverless-aws-rust-multi/issues/new). Pull requests are also welcome.
+This template's intent is to set a minimal baseline for getting engineers up an running with a set of repeatable best practices. See something you'd like in this template that would help others? Feel free to [open a new GitHub issue](https://github.com/uchiumih/serverless-aws-rust-multi/issues/new). Pull requests are also welcome.
