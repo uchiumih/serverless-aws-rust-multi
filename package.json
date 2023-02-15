@@ -1,6 +1,7 @@
 {
+  "name": "serverless-aws-rust-multi",
   "devDependencies": {
-    "serverless": "^1.74.1",
+    "serverless": "^3.27.0",
     "serverless-rust": "^0.3.8"
   }
 }
